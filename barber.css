@@ -1,0 +1,1557 @@
+/* CSS Reset */
+html {
+    scroll-behavior: smooth;
+
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* navbar */
+nav {
+    background-color: rgb(14, 14, 14);
+    width: 100%;
+    height: 60px;
+    z-index: 999;
+    position: sticky;
+    top: 0px;
+}
+
+nav .nav-container {
+    display: block;
+    height: 80px;
+    width: 100%;
+    margin: auto;
+
+
+}
+
+#logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 50px;
+    height: 40px;
+    width: 200px;
+
+
+}
+
+#navbar {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+
+}
+
+#navbar .unorder-list {
+    display: block;
+    margin: auto;
+    justify-content: center;
+
+}
+
+#navbar ul {
+    display: flex;
+    align-items: center;
+    padding-left: 100px;
+    position: relative;
+    list-style: none;
+
+}
+
+#navbar ul a {
+    display: block;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin: 5px;
+    padding: 2px 15px;
+    font-family: 'Kanit', sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+#navbar ul a:hover {
+    background-color: #7e717172;
+}
+
+#navbar #appointment {
+
+    background-color: #9e8a78;
+    font-family: 'Kanit', sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 0 30px;
+    height: 45px;
+    /* line-height: 45px; */
+    display: block;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+#navbar #appointment:hover {
+    background-color: #867c7c;
+}
+
+
+/* home */
+
+#Home {
+    display: flex;
+    flex-direction: column;
+    padding: 48px 100px;
+    justify-content: center;
+    /* align-items: center; */
+    height: 380px;
+    margin: 100pz 2px;
+    color: #fff;
+    align-items: center;
+
+}
+
+#Home #home-box {
+    position: absolute;
+    left: 77px;
+
+}
+
+#Home::before {
+    content: "";
+    position: absolute;
+    background: url(photo/bg3.jpg) no-repeat center center/cover;
+    height: 100%;
+
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: -2;
+    opacity: 0.9;
+}
+
+#Home h3 {
+
+
+    margin: 0 0 10px;
+    font-weight: 400;
+    line-height: 1.4;
+    color: #ffffff;
+    letter-spacing: -0.01em;
+}
+
+#Home h1 {
+
+
+    font-size: 52px;
+    line-height: 62px;
+    margin: 0 0 10px;
+    letter-spacing: -0.02em;
+    font-weight: 400;
+}
+
+#Home p {
+
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+#app-button {
+    display: inline-block;
+    width: 120px;
+    background-color: #9e8a78;
+    margin-top: 20px;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 0.8rem;
+    text-align: center;
+    font-family: 'Kanit', sans-serif;
+
+}
+
+#app-button:hover {
+    background-color: #b2a395;
+}
+
+/* intodection */
+#Introducing {
+    display: flex;
+    margin: 29px 0px;
+    padding: 30px 20px;
+    height: 450px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+
+#Introducing #intro {
+    /* border: 4px solid rgb(0, 0, 0); */
+    padding: 15px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#intro .intro-logo {
+    height: 140px;
+    width: 120px;
+    margin: 0px;
+    padding: 0px;
+}
+
+#intro h4 {
+    color: black;
+    padding: 15px;
+    font-size: 1.5rem;
+    font-weight: 200;
+}
+
+#intro h1 {
+    color: #8b7664;
+    padding: 2px;
+    font-size: 2.5rem;
+    font-family: 'Cinzel', serif;
+}
+
+#intro p {
+    color: #292727;
+    padding: 2px;
+    font-size: 1.1rem;
+    /* font-family: 'Cinzel', serif; */
+    padding: 20px;
+    text-align: center;
+}
+
+#intro #more-about {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    font-size: 0.8rem;
+    font-family: 'Kanit', sans-serif;
+    margin: 30px;
+    background-color: #9e8a78;
+}
+
+#intro #more-about:hover {
+    background-color: #807b77;
+
+}
+
+#Introducing #intro-photo {
+    padding: 15px;
+    width: 50%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#intro-photo .intro-pic {
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
+    position: relative;
+
+}
+
+#intro-photo #intro-pic1 {
+
+    position: relative;
+    left: 0px;
+    bottom: 0px;
+    z-index: 15;
+}
+
+#intro-photo #intro-pic2 {
+    position: relative;
+    left: -30px;
+    bottom: -34px;
+    z-index: 16;
+
+}
+
+#intro-photo #intro-pic3 {
+    position: relative;
+    right: 60px;
+    bottom: 2px;
+    z-index: 15;
+
+}
+
+/* service */
+
+
+#service {
+    background-color: rgb(235, 213, 233);
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#service-heading {
+    text-align: center;
+    padding: 30px;
+
+}
+
+#service-heading h3 {
+    padding: 5px;
+    font-size: 1.5rem;
+    color: #9e8a78;
+
+}
+
+#service-heading h1 {
+    padding: 5px;
+    font-size: 2.8rem;
+}
+
+#service-heading h4 {
+    padding: 0px;
+    font-size: 2rem;
+    color: #9e8a78;
+
+
+}
+
+#service-boxs {
+    display: flex;
+    justify-content: center;
+}
+
+#service-boxs .s-box {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    background-color: #fffefe;
+    border-radius: 10px;
+    position: relative;
+    height: 20rem;
+    margin: 6px 10px;
+    padding: 53px 38px;
+    text-align: center;
+    align-items: center;
+}
+
+.s-box img {
+    height: 80px;
+    width: 80px;
+    margin: 0px 10px 20px 10px;
+}
+
+.s-box h2 {
+    margin: 10px;
+    font-size: 2.5rem;
+}
+
+.s-box p {
+    padding: 10px;
+    font-size: 1.3rem;
+}
+
+/* Appointment box */
+
+#appointment-box {
+    display: flex;
+    height: 490px;
+
+}
+
+#side-photo {
+    width: 50%;
+    position: relative;
+}
+
+#side-photo img {
+    width: 100%;
+    height: 100%;
+    /* margin: 0px 0px 3px 62px; */
+    padding: 0px;
+    position: relative;
+}
+
+#app-form {
+    /* padding: 20px;
+    margin: 20px; */
+    width: 50%;
+
+
+    display: flex;
+    flex-direction: column;
+    background: url(photo/earth.jpg) no-repeat center center/cover;
+    justify-content: center;
+}
+
+#app-form h2 {
+    color: white;
+    padding: 3px 40px;
+    font-size: 2.5rem;
+    font-weight: 200;
+}
+
+#app-form p {
+    color: #bfbebe;
+    padding: 8px 40px;
+}
+
+
+#app-form form {
+    display: flex;
+    padding: 3px 32px;
+
+}
+
+form #app-form-box1 {
+    padding: 5px;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+#app-form-box1 .colum1-form {
+    height: 35px;
+    width: 170px;
+    margin: 5px;
+    padding: 3px 7px;
+
+    border: 3px solid #dcc3d7;
+    background: transparent;
+}
+
+
+
+
+form #app-form-box2 {
+    padding: 5px;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+#app-form-box2 .colum2-form {
+    height: 35px;
+    width: 170px;
+    margin: 5px;
+    padding: 3px 7px;
+    border: 3px solid #dcc3d7;
+    background: transparent;
+}
+
+#form-choose {
+    font-size: 15px;
+    color: #d0cece;
+}
+
+#form-service {
+    font-size: 15px;
+    color: #bfbebe;
+}
+
+#form-app-button a {
+    text-decoration: none;
+    padding: 7px 20px;
+    background-color: #9e8a78;
+    font-family: 'Kanit', sans-serif;
+    color: #bfbebe;
+    margin: 0px 46px;
+
+}
+
+#form-app-button a:hover {
+    background-color: #625d59;
+
+}
+
+/* OUR BARBERS */
+
+
+#our-barbers {
+    background-color: rgb(235, 213, 233);
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#barber-heading {
+    text-align: center;
+    padding: 30px;
+
+}
+
+#barber-heading h3 {
+    padding: 5px;
+    font-size: 1.5rem;
+    color: #9e8a78;
+
+}
+
+#barber-heading h1 {
+    padding: 5px;
+    font-size: 2.8rem;
+    font-weight: 200;
+    color: rgb(20, 19, 19);
+}
+
+#barber-heading h4 {
+    padding: 0px;
+    font-size: 2rem;
+    color: #9e8a78;
+
+
+}
+
+.overlay .text h3 {
+    color: #292727;
+    font-size: 1.1rem;
+
+}
+
+.overlay .text p {
+    color: #3b3835;
+    font-size: 0.9rem;
+    padding: 4px;
+
+
+
+}
+
+#barber-boxs {
+    display: flex;
+    
+}
+
+.b-container {
+    position: relative;
+    width: 50%;
+    margin: 5px;
+}
+
+.b-image {
+    display: block;
+    width: 100%;
+    height: 90%;
+}
+
+.overlay {
+    position: absolute;
+    top: 218px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 33%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #c8ab8c;
+}
+
+.b-container:hover .overlay {
+    opacity: 1;
+}
+
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+
+
+/* Pricing section */
+#our-pricing {
+    background-color: rgb(246, 238, 246);
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#pricing-heading {
+    text-align: center;
+    padding: 30px;
+
+}
+
+#pricing-heading h3 {
+    padding: 5px;
+    font-size: 1.5rem;
+    color: #9e8a78;
+
+}
+
+#pricing-heading h1 {
+    padding: 5px;
+    font-size: 2.8rem;
+    font-weight: 200;
+    color: rgb(20, 19, 19);
+}
+
+#pricing-heading h4 {
+    padding: 0px;
+    font-size: 2rem;
+    color: #9e8a78;
+}
+
+.pricing-box {
+    display: flex;
+    padding: 5px;
+}
+
+.pricing-box .category-box {
+    padding: 10px;
+}
+
+.category-box .box-heading {
+    display: inline-block;
+    background-color: #9f8366;
+    padding: 9px;
+    margin: 15px;
+    font-size: 1.3rem;
+    font-weight: 800;
+    font-family: 'Playpen Sans', cursive;
+
+}
+
+.category-box .heding-pera {
+    margin: 10px;
+    padding: 10px;
+    font-family: 'Work Sans', sans-serif;
+
+
+}
+
+.price-head {
+    font-size: 1.3rem;
+    font-weight: 400;
+    padding: 10px 0px;
+    font-family: 'Young Serif', serif;
+}
+
+
+/* Blog section  */
+
+
+#our-blog {
+    background-color: rgb(247, 247, 247);
+    padding: 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+
+#blog-heading {
+    text-align: center;
+    padding: 30px;
+
+}
+
+#blog-heading h3 {
+    padding: 5px;
+    font-size: 1.5rem;
+    color: #9e8a78;
+
+}
+
+#blog-heading h1 {
+    padding: 5px;
+    font-size: 2.8rem;
+    font-weight: 200;
+    color: rgb(20, 19, 19);
+}
+
+#blog-heading h4 {
+    padding: 0px;
+    font-size: 2rem;
+    color: #9e8a78;
+
+
+}
+
+#blog-boxs {
+    display: flex;
+    padding: 0px 20px 35px 20px;
+    height: 500px;
+}
+
+#blog-boxs .blog-box {
+    margin: 10px;
+    height: 100%;
+    position: relative;
+    box-sizing: border-box;
+    background-color: #f3eded;
+    box-shadow: #3b3835 5px 4px 5px;
+}
+
+.blog-box .blog-photo {
+    background: url(photo/post-1.jpg) no-repeat center center/cover;
+    height: 50%;
+}
+
+
+
+.blog-box .blog-photo img {
+    width: 100%;
+    height: auto;
+}
+
+.blog-box .blog-photo h5 {
+    position: relative;
+    top: 83%;
+    bottom: 10px;
+    display: inline-block;
+    background-color: antiquewhite;
+    padding: 10px;
+
+}
+
+.blog-box .blog-pera {
+
+    margin: 5px;
+    padding: 15px;
+}
+
+.blog-pera h3 {
+    padding: 10px 0px;
+    font-weight: 400;
+    font-size: 1.4rem;
+}
+
+.blog-pera p {
+    padding: 10px 0px;
+    font-size: 0.9rem;
+    line-height: 23px;
+
+
+}
+
+.blog-pera .blog-readmore-btn {
+    background: transparent;
+    border: none;
+    color: rgb(35, 35, 132);
+    cursor: pointer;
+}
+
+.blog-pera .blog-readmore-btn:hover {
+    text-decoration: underline;
+}
+
+
+/* Sponsor section  */
+#sponsor-sec {
+    padding: 20px 20px;
+    height: 150px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#sponsor-sec img {
+    height: auto;
+    height: auto;
+
+}
+
+/* contasct-box  */
+#contact-sec {
+    display: flex;
+    justify-content: center;
+    margin: 0px 2px;
+    padding: 35px 60px;
+    background-color: #3b3835;
+    color: white;
+    height: auto;
+    width: auto;
+}
+
+#contact-sec .contact-box {
+    margin: 1px;
+    padding: 12px;
+    width: 25%;
+    height: auto;
+
+}
+
+.contact-box .logo {
+    height: auto;
+    width: 99%;
+}
+
+.contact-box p {
+    font-size: 1.1rem;
+    width: 99%;
+    font-weight: 200;
+    line-height: 27px;
+}
+
+.contact-box .social-box {
+    padding: 14px 1px;
+    display: flex;
+    align-items: center;
+
+}
+
+.social-box img {
+    height: 30px;
+    width: 30px;
+    padding: 10px;
+}
+
+#contact-sec h2 {
+    padding: 24px 0px;
+    font-size: 1.2rem;
+}
+
+.contact-box .address {
+    padding: 20px 1px;
+}
+
+
+.subcribe-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.subcribe-form .subcribe-box {
+    padding: 10px 2px;
+    margin: 4px 1px;
+}
+
+
+.subcribe-form input {
+    background-color: rgba(255, 255, 255, 0.4);
+    border: none;
+}
+
+.subcribe-form input::placeholder {
+    color: #bfbebe;
+}
+
+.subcribe-form button {
+    background-color: #9f8366;
+    text-align: center;
+    border: none;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.subcribe-form button:hover {
+    background-color: #7d7367;
+
+}
+
+
+/* footer  */
+footer {
+    display: flex;
+    padding: 3px 24px;
+    background-color: #3b3835;
+    border-top: 1px solid white;
+    height: 20px;
+    width: 100%;
+}
+
+footer .row1 p{
+    width: 50%;
+    color: white;
+}
+
+footer .row2 .ff-heding-box{
+    width: 50%;
+    display: flex;
+    position: relative;
+    left: 20%;
+}
+
+.row2 a {
+    padding: 2px 10px;
+    text-decoration: none;
+    font-size: 0.9rem;
+    color: white;
+}
+
+
+
+
+/* ---------------------------------
+Media Queries
+--------------------------------- */
+@media screen and (max-width: 550px) {
+    #navbar {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    nav {
+        width: 100%;
+        height: auto;
+
+    }
+
+    #logo {
+        display: flex;
+        justify-content: center;
+        margin: 0px 50px;
+        height: 31px;
+        width: 192px;
+    }
+
+
+    #logo img {
+
+        margin: 2px 31px;
+        height: 35px;
+        width: 90px;
+    }
+    
+
+    #navbar ul {
+        display: flex;
+        align-items: center;
+        padding-left: 1px;
+
+
+    }
+
+    #navbar ul a {
+
+        margin: -6px;
+        padding: 0px 13px;
+
+        font-size: 8px;
+    }
+
+    #navbar #appointment {
+
+        padding: 0px 5px;
+        height: 35px;
+        margin: 0;
+        display: flex;
+    }
+
+    /* hone  */
+    #Home {
+        display: flex;
+        flex-direction: column;
+        padding: 19px 19px;
+        height: 310px;
+        margin: 100pz 2px;
+        color: #fff;
+    }
+
+    #Home::before {
+
+        height: 64%;
+        width: 100%;
+
+    }
+
+    #Home #home-box {
+        position: absolute;
+        left: 27px;
+        top: 91px;
+
+
+    }
+
+    #Home h1 {
+        font-size: 25px;
+        line-height: 28px;
+        margin: 1px 0 34px;
+        letter-spacing: -0.02em;
+        margin: 23px -2px;
+    }
+
+    /* introducting */
+    #Introducing {
+        display: flex;
+        /* flex-direction: column; */
+        flex-wrap: wrap;
+        position: relative;
+        top: 1px;
+        margin: 1px 1px;
+        padding: 5px;
+        height: auto;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+    }
+
+    #Introducing #intro {
+        padding: 15px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #intro h1 {
+        color: #8b7664;
+        padding: 2px;
+        font-size: 1.6rem;
+        font-family: 'Cinzel', serif;
+    }
+
+    #intro p {
+        padding: 2px;
+        font-size: 1rem;
+        padding: 10px;
+        text-align: center;
+    }
+
+    #intro #more-about {
+        padding: 8px 20px;
+        font-size: 0.9rem;
+        margin: 0px;
+    }
+
+    #Introducing #intro-photo {
+        padding: 12px;
+        width: 95%;
+        height: 100%;
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+    }
+/* service section  */
+#service {
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+}
+#service-heading {
+    text-align: center;
+    padding: 7px;
+}
+#service-heading h3 {
+    padding: 1px;
+    font-size: 1rem;
+}
+#service-heading h1 {
+    padding: 5px;
+    font-size: 2rem;
+}
+#service-heading h4 {
+    padding: 0px;
+    font-size: 1rem;
+}
+#service-boxs {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#service-boxs .s-box {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 17rem;
+    margin: 6px 10px;
+    padding: 19px 17px;
+}
+
+/* appointment section */
+#side-photo {
+    width: 50%;
+    position: relative;
+    display: none;
+}
+
+#app-form {
+    width: 100%;
+    display: flex;
+}
+#app-form form {
+    display: flex;
+    padding: 1px 4px;
+    justify-content: center;
+}
+#app-form h2 {
+    color: white;
+    padding: 3px 40px;
+    font-size: 1.5rem;
+    font-weight: 200;
+    display: flex;
+    justify-content: center;
+}
+#app-form p {
+    color: #bfbebe;
+    padding: 10px 88px;
+    display: flex;
+    justify-content: center;
+}
+#app-form-box2 .colum2-form {
+    height: 30px;
+    width: 140px;
+    margin: 3px;
+    padding: 3px 7px;
+}
+#app-form-box1 .colum1-form {
+    height: 30px;
+    width: 140px;
+    margin: 3px;
+    padding: 3px 7px;
+}
+#form-app-button a {
+    text-decoration: none;
+    padding: 7px 20px;
+    margin: 0px 46px;
+    display: flex;
+    justify-content: center;
+}
+/* our barber  */
+#barber-heading {
+    text-align: center;
+    padding: 1px;
+}
+#barber-heading h3 {
+    padding: 5px;
+    font-size: 0.9rem;
+}
+#barber-heading h1 {
+    padding: 5px;
+    font-size: 2rem;
+    font-weight: 200;
+}
+#barber-heading h4 {
+    padding: 0px;
+    font-size: 1rem;
+}
+#our-barbers {
+    padding: 9px;
+}
+#barber-boxs {
+    display: flex;
+    flex-wrap: wrap;
+justify-content: center;
+}
+.overlay {
+    position: relative;
+    top: -75px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 38%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+}
+.overlay .text h3 {
+    color: #292727;
+    font-size: 1rem;
+}
+.overlay .text p {
+    font-size: 0.7rem;
+}
+/* pricing  */
+#pricing-heading {
+    padding: 4px;
+}
+#pricing-heading h3 {
+    padding: 5px;
+    font-size: 1rem;
+}
+#pricing-heading h1 {
+    padding: 3px;
+    font-size: 2rem;
+    font-weight: 200;
+}
+.pricing-box {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+}
+.pricing-box .category-box {
+    padding: 1px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.category-box .box-heading {
+    display: inline-block;
+    background-color: #9f8366;
+    padding: 9px;
+    margin: 15px;
+    font-size: 1.3rem;
+    font-weight: 800;
+    font-family: 'Playpen Sans', cursive;
+    text-align: center;
+}
+.price-head {
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 10px 0px;
+    font-family: 'Young Serif', serif;
+}
+
+/* blog section  */
+#blog-heading h3 {
+    padding: 5px;
+    font-size: 1rem;
+    color: #9e8a78;
+}
+
+#blog-heading h1 {
+    padding: 5px;
+    font-size: 1.5rem;
+    font-weight: 200;
+    color: rgb(20, 19, 19);
+}
+#blog-boxs {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 20px 35px 20px;
+    height: auto;
+}
+.blog-box .blog-photo {
+    height: 215px;
+}
+/* sponsor section  */
+#sponsor-sec {
+    padding: 20px 20px;
+    height: auto;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#sponsor-sec img {
+    height: auto;
+    height: auto;
+    width: 32%;
+}
+
+
+/* contact section 
+ */
+ #contact-sec {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0px 2px;
+    padding: 11px 21px;
+    background-color: #3b3835;
+    color: white;
+    height: auto;
+    width: auto;
+    text-align: center;
+}
+#contact-sec .contact-box {
+    margin: 1px;
+    padding: 12px;
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.contact-box .social-box {
+    padding: 14px 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* footer section  */
+footer {
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 21px 15px;
+    margin: 4px;
+    background-color: #3b3835;
+    border-top: 1px solid white;
+    height: 49px;
+    width: 90%;
+}
+ footer .row1 p {
+    width: 98%;
+    color: white;
+}
+.row2 .ff-heading-box{
+    display: flex;
+}
+footer .row2 .ff-heding-box {
+    width: 98%;
+    display: flex;
+    position: relative;
+    padding: 19px 8px;
+}
+}
+
+
+/* ------------------------------ */
+@media screen and (max-width:1150px) {
+
+    #logo {
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 12px;
+    height: 50px;
+    width: 20%;
+    }
+    #logo img {
+        height: 43px;
+        width: 115px;
+    }
+    #navbar .unorder-list {
+        display: block;
+        margin: auto;
+        justify-content: center;
+        width: 78%;
+    }
+    #navbar ul {
+        display: flex;
+        align-items: center;
+        padding-left: 0px;
+        position: relative;
+        list-style: none;
+    }
+    #navbar ul a {
+        display: block;
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        margin: 1px;
+        padding: 1px 3px;
+        font-family: 'Kanit', sans-serif;
+        font-weight: bold;
+        font-size: 12px;
+    }
+    #navbar #appointment {
+        
+        padding: 0 30px;
+        height: 34px;
+       
+    }
+
+    /* home  */
+
+
+    /* introducting */
+    #Introducing {
+        display: flex;
+        margin: 29px 0px;
+        padding: 30px 20px;
+        height: auto;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+    }
+
+    #intro h4 {
+        color: black;
+        padding: 15px;
+        font-size: 1.2rem;
+        font-weight: 200;
+    }
+    #intro h1 {
+        color: #8b7664;
+        padding: 1px;
+        font-size: 1.5rem;
+        font-family: 'Cinzel', serif;
+    }
+    #intro .intro-logo {
+        height: 103px;
+        width: 81px;
+        margin: 0px;
+        padding: 0px;
+    }
+    #Introducing #intro-photo {
+        padding: 15px;
+        width: 50%;
+        height: auto;
+        position: relative;
+        right:42px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* services */
+
+    #service-boxs {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    #service-boxs .s-box {
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        background-color: #fffefe;
+        border-radius: 10px;
+        position: relative;
+        height: auto;
+        width: 18%;
+        margin: 6px 10px;
+        padding: 53px 38px;
+        text-align: center;
+        align-items: center;
+    }
+    /* appointment box  */
+    #side-photo {
+        width: 108%;
+        position: relative;
+        display: none;
+    }
+    #appointment-box {
+        display: flex;
+        height: 490px;
+        width: 100%;
+        justify-content: center;
+    }
+    #app-form {
+        width: 99%;
+        display: flex;
+        flex-direction: column;
+        background: url(photo/earth.jpg) no-repeat center center/cover;
+        justify-content: center;
+    }
+/* blog   */
+   
+#our-blog {
+    background-color: rgb(247, 247, 247);
+    padding: 2px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+
+#blog-heading {
+    text-align: center;
+    padding: 30px;
+
+}
+
+#blog-heading h3 {
+    padding: 5px;
+    font-size: 1.5rem;
+    color: #9e8a78;
+
+}
+
+#blog-heading h1 {
+    padding: 5px;
+    font-size: 2.8rem;
+    font-weight: 200;
+    color: rgb(20, 19, 19);
+}
+
+#blog-heading h4 {
+    padding: 0px;
+    font-size: 2rem;
+    color: #9e8a78;
+
+
+}
+
+#blog-boxs {
+    display: flex;
+    padding: 0px 20px 35px 20px;
+    height: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+#blog-boxs .blog-box {
+    margin: 10px;
+    height: 581px;
+
+    position: relative;
+    box-sizing: border-box;
+    background-color: #f3eded;
+    box-shadow: #3b3835 5px 4px 5px;
+}
+
+.blog-box .blog-photo {
+    background: url(photo/post-1.jpg) no-repeat center center/cover;
+    height: 65%;
+}
+
+
+
+.blog-box .blog-photo img {
+    width: 100%;
+    height: auto;
+}
+
+.blog-box .blog-photo h5 {
+    position: relative;
+    top: 83%;
+    bottom: 10px;
+    display: inline-block;
+    background-color: antiquewhite;
+    padding: 10px;
+
+}
+
+.blog-box .blog-pera {
+
+    margin: 5px;
+    padding: 15px;
+}
+
+.blog-pera h3 {
+    padding: 10px 0px;
+    font-weight: 400;
+    font-size: 1.4rem;
+}
+
+.blog-pera p {
+    padding: 10px 0px;
+    font-size: 0.9rem;
+    line-height: 23px;
+
+
+}
+
+.blog-pera .blog-readmore-btn {
+    background: transparent;
+    border: none;
+    color: rgb(35, 35, 132);
+    cursor: pointer;
+}
+.blog-pera .blog-readmore-btn:hover {
+    text-decoration: underline;
+}
+
+}
